@@ -9,6 +9,11 @@ h1 {
     text-align: center;
 }
 
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
 /* Base style for all sections */
 section {
   position: relative;
@@ -35,12 +40,6 @@ section .title {
 section .chicken { background: #e8a7a7; }
 section .beef    { background: #b45151; color: #fff; }
 section .sushi   { background: #e8d9a7; }
-
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
